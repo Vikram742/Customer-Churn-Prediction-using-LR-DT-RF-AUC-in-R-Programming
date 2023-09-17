@@ -264,3 +264,4 @@ roc(test$Churn,test$pred_rf6,plot=TRUE,percent=TRUE,legacy.axes=TRUE,
     xlab="False Positive Percentage", ylab="True Positive Percentage", col="#8CEC5C",lwd=1,print.auc=TRUE)
 # AUC under Random Sampling for both sampling is 89.4%
 
+Conclusion : Random Forest for undersampling is the best model due to the highest AUC i.e 90.4%
